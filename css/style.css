@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* layout */
+
+.container-full{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* commons */
+
+body{
+color: white;
+background-color: black;
+}
+
+main{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* specifics */
+
+.top-menu{
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+/* style */
+
+.text-right{
+    text-align: right;
+}
+
+.bg-lightgrey{
+    background-color: lightgray;
+}
+
+
+
+
