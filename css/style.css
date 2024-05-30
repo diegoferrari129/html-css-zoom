@@ -21,7 +21,7 @@
 }
 
 .col-14{
-    width: calc(100% / 7)
+    width: calc(96.5% / 7);
 }
 
 .col-10{
@@ -32,19 +32,26 @@
     width: 90%;
 }
 
+.gap-05{
+    gap: 5px;
+}
+
 /* commons */
 
 body{
-color: white;
-background-color: black;
+    color: white;
+    background-color: black;
 }
 
 main{
     margin-top: 10px;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
 }
 
 footer{
     background-color: rgba(169, 169, 169, 0.263);
+    height: 70px;
 }
 
 a{
@@ -60,16 +67,11 @@ a{
 }
 
 .user{
-    width: 200px;
-    height: 100px;
-    background-color: aqua;
-    border: 2px solid black;
-    margin: 10px 10px;
+    margin: 10px 0;
 }
 
 .main-menu{
-    background-color: bisque;
-    height: 50px;
+
 }
 
 /* style */
