@@ -21,7 +21,7 @@
 }
 
 .col-14{
-    width: calc(96.5% / 7);
+    width: calc(100% / 7);
 }
 
 .col-20{
@@ -30,10 +30,6 @@
 
 .col-60{
     width: 60%;
-}
-
-.gap-05{
-    gap: 5px;
 }
 
 /* commons */
@@ -57,7 +53,7 @@ main{
     overflow-y: auto;
 }
 
-.scrollable-content::-webkit-scrollbar {
+main::-webkit-scrollbar {
     display: none;
   }
 
@@ -72,6 +68,7 @@ footer{
     padding: 5px;
     border-radius: 5px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .user{
