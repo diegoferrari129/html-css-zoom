@@ -64,14 +64,18 @@ a{
     padding: 5px;
     border-radius: 5px;
     margin-right: 5px;
+    color: white;
 }
 
 .user{
     margin: 10px 0;
+    position: relative;
 }
 
-.main-menu{
-
+.status-label{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
 }
 
 /* style */
