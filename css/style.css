@@ -57,6 +57,10 @@ main{
     overflow-y: auto;
 }
 
+.scrollable-content::-webkit-scrollbar {
+    display: none;
+  }
+
 footer{
     background-color: rgba(169, 169, 169, 0.263);
     height: 70px;
@@ -86,13 +90,15 @@ footer{
     display: inline-block;
     padding: 15px 5px 0px 10px;
     text-align: center;
-
 }
 
 /* style */
 
-.logout{
-    text-align: right;
+.logout-btn{
+    background-color: rgba(211, 211, 211, 0.305);
+    color: red;
+    padding: 27px;
+    border: none;
 }
 
 .bg-lightgrey{
@@ -105,6 +111,14 @@ footer{
 
 .m-top-5{
     margin-top: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.tex-right{
+    text-align: right;
 }
 
 
